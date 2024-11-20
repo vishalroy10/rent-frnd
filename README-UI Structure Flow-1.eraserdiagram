@@ -1,0 +1,58 @@
+flowchart-diagram
+
+// UI Structure Flow Chart
+
+title UI Structure Flow
+
+Homepage [shape: oval, icon: home] > Header [icon: menu]
+Header > Main Banner [icon: image]
+Main Banner > Featured Services Section [icon: grid]
+Featured Services Section > Testimonials Section [icon: star]
+Testimonials Section > Footer [icon: file-text]
+
+Service Pages [shape: oval, icon: file-text] > Service Detail Page [icon: info]
+Service Detail Page > Book Now [icon: calendar]
+
+Profile Pages [shape: oval, icon: user] > User Profiles [icon: user-check]
+User Profiles > Contact Button [icon: mail]
+
+Booking System [shape: oval, icon: calendar] > Booking Form [icon: form]
+Booking Form > Confirmation Button [icon: check-square]
+
+User Dashboard [shape: oval, icon: user] > Profile Management [icon: edit]
+Profile Management > Messaging System [icon: message-square]
+
+Admin Panel [shape: oval, icon: settings] > User Management [icon: users]
+User Management > Service Management [icon: briefcase]
+Service Management > Booking Management [icon: calendar]
+Booking Management > Analytics Dashboard [icon: bar-chart]
+
+// Backend Flow Structure Flow Chart
+
+title Backend Flow Structure Flow
+
+User Authentication [shape: oval, icon: lock] > User Registration [icon: user-plus]
+User Registration > Password Recovery [icon: key]
+
+Service Management [shape: oval, icon: briefcase] > CRUD Operations [icon: database]
+CRUD Operations > Image Uploads [icon: upload]
+
+Booking System [shape: oval, icon: calendar] > Handle Booking Requests [icon: calendar-check]
+Handle Booking Requests > Process Payments [icon: credit-card]
+Process Payments > Send Confirmation [icon: mail]
+
+User Profiles [shape: oval, icon: user] > Store User Data [icon: database]
+Store User Data > Manage Reviews [icon: star]
+
+Messaging System [shape: oval, icon: message-square] > Real-time Chat [icon: message-circle]
+Real-time Chat > Notifications [icon: bell]
+
+Admin Functions [shape: oval, icon: settings] > Manage Users [icon: users]
+Manage Users > Generate Reports [icon: file-text]
+Generate Reports > Monitor Performance [icon: activity]
+
+Database Structure [shape: oval, icon: database] > Users Table [icon: user]
+Users Table > Services Table [icon: briefcase]
+Services Table > Bookings Table [icon: calendar]
+Bookings Table > Reviews Table [icon: star]
+
